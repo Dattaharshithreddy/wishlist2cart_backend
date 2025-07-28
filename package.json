@@ -1,5 +1,10 @@
 {
   "name": "wishlist2cart-backend",
+ "main": "index.js",
+"scripts": {
+  "start": "node index.js"
+}
+
   "version": "1.0.0",
   "scripts": {
     "start": "node index.js"
