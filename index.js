@@ -15,8 +15,7 @@ const nodemailer = require('nodemailer');
 const path = require('path');
 const fs = require('fs');
 const { jsPDF } = require('jspdf');
-require('jspdf-autotable')(jsPDF.API); // ✅ Fix: register autoTable in Node.js
-
+const autoTable = require('jspdf-autotable');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
