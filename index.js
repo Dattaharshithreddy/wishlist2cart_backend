@@ -382,5 +382,5 @@ process.on('SIGINT', shutdown);
 process.on('SIGTERM', shutdown);
 
 app.listen(PORT, () => {
-  console.log(`✅ Server running at http://localhost:${PORT}`);
+  console.log(`✅ Server running at ${PORT}`);
 });
